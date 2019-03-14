@@ -25,4 +25,27 @@
 	background-size: cover;
 }
 
+#section_chief_carousel_controller_left{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#section_chief_carousel_controller_left_icon{
+	padding-top: 8rem;
+	padding-left: 1rem;
+}
+
+#section_chief_carousel_controller_right{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#section_chief_carousel_controller_right_icon{
+	padding-top: 8rem;
+	padding-left: 1rem;
+}
 
