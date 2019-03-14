@@ -1,7 +1,7 @@
 #header_container{
 	display: grid;
 	grid-template-columns: 10% auto 1fr 5% auto 10%;
-	grid-template-rows:20px auto 20px;
+	grid-template-rows: 1.5rem auto 1.5rem;
 	background-color: ffffff;
 }
 
@@ -24,7 +24,7 @@
 	height: 50;
 	border: none;
 	background-color: f92525;
-	font-size:24px;
+	font-size: 1rem;
 	color:fff5f5;
 }
 

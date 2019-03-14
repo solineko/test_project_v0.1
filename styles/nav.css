@@ -1,7 +1,7 @@
 #nav_container{
 	display: grid;
 	grid-template-columns: 10% 1fr 1fr 10%;
-	grid-template-rows: 50px auto 50px;
+	grid-template-rows: 4rem auto 4rem;
 	background-color: f5f8f9;
 }
 
@@ -27,15 +27,16 @@
 	justify-content: flex-end;
 	grid-row-start: 2;
 	grid-row-end: 3;
+	grid-gap:2rem;
 }
 
 .nav_menu_item{
-	border-bottom: 0px solid #676a6c;
+	border-bottom: 0rem solid #676a6c;
+
 }
 
 .nav_menu_item_url{
 	text-decoration: none;
-	margin:20px;
 	font-weight:bold;
 
 }

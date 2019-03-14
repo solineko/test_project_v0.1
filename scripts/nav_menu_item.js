@@ -16,11 +16,11 @@ function GetNavMenuItems(){
 }
 
 function ShowNavMenuItemMark(obj){
-	obj.parentNode.style.borderWidth="2px";
+	obj.parentNode.style.borderWidth="0.125rem";
 }
 
 function HideNavMenuItemMark(obj){
-	obj.parentNode.style.borderWidth="0px";
+	obj.parentNode.style.borderWidth="0rem";
 }
 
 
