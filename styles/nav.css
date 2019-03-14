@@ -27,12 +27,13 @@
 	justify-content: flex-end;
 	grid-row-start: 2;
 	grid-row-end: 3;
-	grid-gap:2rem;
+	/*grid-gap: 2rem;*/
 }
 
 .nav_menu_item{
 	border-bottom: 0rem solid #676a6c;
-
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 .nav_menu_item_url{

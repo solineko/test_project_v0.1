@@ -10,7 +10,7 @@
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 20rem;
-	padding: 1rem;
+	padding: 0.5rem;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
@@ -21,7 +21,7 @@
 	display: grid;
 	grid-template-columns: 5% auto 5%;
 	grid-template-rows: 1fr 10fr 1fr;
-	background-image: url("https://via.placeholder.com/1280x720/81acf5?text=Page_01");
+	background-image: url("https://via.placeholder.com/1280x720/81acf5");
 	background-size: cover;
 }
 
