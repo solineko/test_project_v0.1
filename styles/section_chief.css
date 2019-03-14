@@ -21,6 +21,8 @@
 	display: grid;
 	grid-template-columns: 5% auto 5%;
 	grid-template-rows: 1fr 10fr 1fr;
+	background-image: url("https://via.placeholder.com/1280x720/81acf5?text=Page_01");
+	background-size: cover;
 }
 
 
