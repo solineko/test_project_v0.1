@@ -1,0 +1,24 @@
+#section_demonstration_container{
+	display: grid;
+	grid-template-columns: 10% 1fr 10%;
+	grid-template-rows: 2rem auto auto 4rem;
+	background-color: f5f8f9;
+}
+
+#section_demonstration_curve_container{
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-template-columns: 1fr;
+	grid-template-rows: 24rem;
+
+}
+
+#section_demonstration_curve{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
