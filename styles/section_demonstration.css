@@ -22,3 +22,13 @@
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
+
+#section_demonstration_piebar_container{
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 32rem;
+}
