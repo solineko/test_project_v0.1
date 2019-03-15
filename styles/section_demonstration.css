@@ -13,6 +13,7 @@
 	grid-row-end: 3;
 	grid-template-columns: 1fr;
 	grid-template-rows: 24rem;
+	background-color: ffffff;
 
 }
 
@@ -24,6 +25,7 @@
 }
 
 #section_demonstration_piebar_container{
+	background-color: ffffff;
 	display: grid;
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -50,3 +52,21 @@
 	grid-row-end: 2;
 }
 
+/*section_demonstration_bar*/
+
+#section_demonstration_bar_container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#section_demonstration_bar{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
