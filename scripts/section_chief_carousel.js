@@ -7,13 +7,13 @@ let CarouselObj=document.getElementById("section_chief_carousel");
 function ChangePrevImage(){
 	CurrentPage=CurrentPage-1;
 	CheckResetPage();
-	SetPage();
+	SetPage(CurrentPage);
 }
 
 function ChangeNextImage(){
 	CurrentPage=CurrentPage+1;
 	CheckResetPage();
-	SetPage();
+	SetPage(CurrentPage);
 }
 
 function StopAutoChange(){
@@ -34,7 +34,7 @@ function CheckResetPage(){
 }
 
 function SetPage(page){
-	let temp='url('+'"'+images[CurrentPage]+'"'+")";
+	let temp='url('+'"'+images[page]+'"'+")";
 	CarouselObj.style.backgroundImage=temp;
 }
 

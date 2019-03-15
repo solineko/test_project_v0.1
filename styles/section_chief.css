@@ -1,3 +1,4 @@
+/*section_chief_carousel*/
 #section_chief_container{
 	display: grid;
 	grid-template-columns: 10% auto 2.5%  auto 10%;
@@ -47,5 +48,99 @@
 #section_chief_carousel_controller_right_icon{
 	padding-top: 8rem;
 	padding-left: 1rem;
+}
+
+
+/*section_chief_support_container*/
+#section_chief_support_container{
+	background-color: ffffff;
+	display: grid;
+	grid-template-columns: 5% 1fr 1fr 5%;
+	grid-template-rows: 1fr 0.125rem 2fr;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end:2;
+}
+
+#section_chief_support_title_container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#section_chief_support_title{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+
+#section_chief_support_button_viewall_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 0.5fr 1fr 0.5fr;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#section_chief_support_button_viewall{
+	background-color: rgba(255,255,255,0.2);
+	border: 0.2rem solid #e9e9ea;
+	border-radius: 0.25rem;
+	font-size: 1rem;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#section_chief_support_dividingline{
+	display: block;
+	grid-column-start: 1;
+	grid-column-end: -1;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: f5f8f9;
+}
+
+#section_chief_support_list_container{
+	display: grid;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+}
+
+#section_chief_support_list_time_container{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#section_chief_support_list_username_container{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	
+}
+
+
+
+
+.section_chief_support_list{
+	list-style-type: none;
+	margin-top: 2.5rem;
 }
 
