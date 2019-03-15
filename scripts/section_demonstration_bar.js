@@ -9,7 +9,7 @@ $.ajax({
 	success:function(data){
 		bar_echart.setOption({
 			title:{
-				text:"柱状图数据展示",
+				text:"Bar",
 				x:"center",
 			},
 			xAxis:{
@@ -19,7 +19,7 @@ $.ajax({
 				},
 			},
 			yAxis:{
-				name:"商品数",
+				name:"nums",
 				axisLine:{
 					show:false,
 				},

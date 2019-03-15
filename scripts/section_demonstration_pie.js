@@ -8,7 +8,7 @@ $.ajax({
 		// console.log(data);
 		pie_echart.setOption({
 			title:{
-				text:"饼状图数据显示",
+				text:"Pie",
 				x:"center",
 			},
 			series:{

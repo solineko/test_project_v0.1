@@ -11,18 +11,18 @@ $.ajax({
 		// console.log(data["data"]);
 		curve_echart.setOption({
 			title:{
-				text:"曲线数据展示",
+				text:"Curve",
 				x:"center",
 			},
 			xAxis:{
-				name:"日期",
+				name:"days",
 				data:data["data"]["xAxis"],
 				axisLine:{
 					show:false,
 				},
 			},
 			yAxis:{
-				name:"人",
+				name:"nums",
 				axisLine:{
 					show:false,
 				},
