@@ -12,7 +12,7 @@ $.ajax({
 		curve_echart.setOption({
 			title:{
 				text:"曲线数据展示",
-				'x':"center",
+				x:"center",
 			},
 			xAxis:{
 				name:"日期",

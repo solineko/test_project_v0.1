@@ -32,3 +32,21 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 32rem;
 }
+
+#section_demonstration_pie_container{
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+#section_demonstration_pie{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
