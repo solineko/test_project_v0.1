@@ -1,17 +1,79 @@
 #footer_container{
 	display: grid;
 	grid-template-columns: 10% 1fr 10%;
-	grid-template-rows: 16rem 0.125rem 2rem;
+	grid-template-rows: 24rem 0.125rem 2rem;
 	background-color: 202124;
 }
 
 #footer_list_container{
 	display: grid;
-	grid-template-columns: repeat(10 1fr);
-	grid-template-rows: 1fr;
+	grid-template-columns: repeat(12,1fr);
+	grid-template-rows: 0.5fr 2fr 0.5fr;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	grid-row-start: 1;
 	grid-row-end: 2;
 }
 
+#footer_dividingline{
+	display: block;
+	background-color: 4a4a4c;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+
+#footer_list_logo{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#footer_list_news{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#footer_list_sports{
+	grid-column-start: 5;
+	grid-column-end: 6;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#footer_list_weather{
+	grid-column-start: 7;
+	grid-column-end: 8;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+
+#footer_list_future{
+	grid-column-start: 9;
+	grid-column-end: 10;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+#footer_list_travel{
+	grid-column-start: -2;
+	grid-column-end: -3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.footer_list{
+	list-style: none;
+	margin-top: 2rem;
+}
+
+.footer_list_url{
+	text-decoration:none;
+	color: #ffffff;
+}
