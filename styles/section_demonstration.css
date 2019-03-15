@@ -3,6 +3,7 @@
 	grid-template-columns: 10% 1fr 10%;
 	grid-template-rows: 2rem auto auto 4rem;
 	background-color: f5f8f9;
+	grid-gap: 0.5rem;
 }
 
 #section_demonstration_curve_container{
@@ -25,7 +26,6 @@
 }
 
 #section_demonstration_piebar_container{
-	background-color: ffffff;
 	display: grid;
 	grid-column-start: 2;
 	grid-column-end: 3;
@@ -33,9 +33,11 @@
 	grid-row-end: 4;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 32rem;
+	grid-gap: 0.5rem;
 }
 
 #section_demonstration_pie_container{
+	background-color: ffffff;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;
@@ -55,6 +57,7 @@
 /*section_demonstration_bar*/
 
 #section_demonstration_bar_container{
+	background-color: ffffff;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 1fr;

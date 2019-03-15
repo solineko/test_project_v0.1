@@ -1,9 +1,10 @@
 /*section_chief_carousel*/
 #section_chief_container{
 	display: grid;
-	grid-template-columns: 10% 1fr 2.5%  1fr 10%;
+	grid-template-columns: 10% 1fr auto  1fr 10%;
 	grid-template-rows: auto;
 	background-color: f5f8f9;
+	grid-gap: 0.5rem;
 }
 
 #section_chief_carousel_container{
@@ -161,9 +162,11 @@
 }
 
 .section_chief_support_list_status_mark{
+	color: #ffffff;
 	width: 5rem;
 	height: 2rem;
 	background-color: rgba(93,208,84,0.8);
 	border: none;
 	border-radius: 0.1rem;
+	font-size: 1rem;
 }
