@@ -1,7 +1,7 @@
 /*section_chief_carousel*/
 #section_chief_container{
 	display: grid;
-	grid-template-columns: 10% auto 2.5%  auto 10%;
+	grid-template-columns: 10% 1fr 2.5%  1fr 10%;
 	grid-template-rows: auto;
 	background-color: f5f8f9;
 }
